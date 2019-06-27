@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api' : {
-        target: '127.0.0.1:5000', // 后端服务地址
+        target: 'http://127.0.0.1:5000', // 后端服务地址
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
@@ -58,7 +58,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './', // 打包后index.html中文件路径
 
     /**
      * Source Maps
