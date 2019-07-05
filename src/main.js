@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
-
+import global from '../utils/global'
 // 引入Element
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
@@ -23,7 +23,7 @@ if ('addEventListener' in document) {
 Vue.use(MuseUI)
 Vue.use(Toast)
 Vue.use(ElementUI)
-
+global.init()
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

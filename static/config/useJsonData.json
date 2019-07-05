@@ -1,0 +1,7 @@
+{
+  "name": "useJsonData",
+  "version": "1.0.0",
+  "CUSTOM_CONFIG": {
+    "BASE_URL": "127.0.0.1"
+  }
+}
