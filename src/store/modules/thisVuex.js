@@ -1,5 +1,5 @@
 const store = {
-  namespace: true,
+  namespaced: true,
   state: {},
   mutations: {},
   actions: {},
